@@ -91,21 +91,17 @@ const FoodDetails: React.FC = () => {
     loadFood();
   }, [routeParams]);
 
-  // useEffect(() => {
-  //   async function loadFavorite(): Promise<void> {
-  //     try {
-  //       const response = await api.get(`favorites/${routeParams.id}`);
+  useEffect(() => {
+    function loadFavorite(): void {
+      api.get(`favorites/${routeParams.id}`).then(response => {
+        if (response.status === 200) {
+          setIsFavorite(true);
+        }
+      });
+    }
 
-  //       if (response.status === 200) {
-  //         setIsFavorite(true);
-  //       }
-  //     } catch (err) {
-  //       console.log(err);
-  //     }
-  //   }
-
-  //   loadFavorite();
-  // }, [routeParams]);
+    loadFavorite();
+  }, [routeParams]);
 
   function handleIncrementExtra(id: number): void {
     setExtras(

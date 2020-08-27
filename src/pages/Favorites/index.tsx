@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Image } from 'react-native';
 
-// import { useIsFocused } from '@react-navigation/native';
+import { useIsFocused } from '@react-navigation/native';
 
 import api from '../../services/api';
 import formatValue from '../../utils/formatValue';
@@ -30,7 +30,7 @@ interface Food {
 }
 
 const Favorites: React.FC = () => {
-  // const isFocused = useIsFocused();
+  const isFocused = useIsFocused();
 
   const [favorites, setFavorites] = useState<Food[]>([]);
 
@@ -47,7 +47,7 @@ const Favorites: React.FC = () => {
     }
 
     loadFavorites();
-  }, []);
+  }, [isFocused]);
 
   return (
     <Container>

@@ -7,6 +7,7 @@ import api from '../../services/api';
 import Favorites from '../../pages/Favorites';
 
 const mockedNavigate = jest.fn();
+const mockedIsFocused = jest.fn();
 
 jest.mock('@react-navigation/native', () => {
   return {
@@ -14,6 +15,7 @@ jest.mock('@react-navigation/native', () => {
     useNavigation: () => ({
       navigate: mockedNavigate,
     }),
+    useIsFocused: () => mockedIsFocused,
   };
 });
 
