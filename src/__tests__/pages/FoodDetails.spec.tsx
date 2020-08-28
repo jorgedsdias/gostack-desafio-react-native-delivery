@@ -59,19 +59,10 @@ describe('Orders', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: true,
       },
     ];
 
-    apiMock.onGet('/foods').reply(config => {
-      if (config.params.favorite === true) {
-        return [200, favorites];
-      }
-
-      return [200, favorites];
-    });
-
-    apiMock.onGet('/foods?favorite=true').reply(200, favorites);
+    apiMock.onGet('/favorites').reply(200, favorites);
 
     const item = {
       id: 1,
@@ -84,7 +75,6 @@ describe('Orders', () => {
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
       thumbnail_url:
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-      favorite: false,
       extras: [
         {
           id: 1,
@@ -135,19 +125,10 @@ describe('Orders', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: true,
       },
     ];
 
-    apiMock.onGet('/foods').reply(config => {
-      if (config.params.favorite === true) {
-        return [200, favorites];
-      }
-
-      return [200, favorites];
-    });
-
-    apiMock.onGet('/foods?favorite=true').reply(200, favorites);
+    apiMock.onGet('/favorites').reply(200, favorites);
 
     const item = {
       id: 1,
@@ -160,7 +141,6 @@ describe('Orders', () => {
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
       thumbnail_url:
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-      favorite: false,
       extras: [
         {
           id: 1,
@@ -217,19 +197,10 @@ describe('Orders', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: true,
       },
     ];
 
-    apiMock.onGet('/foods').reply(config => {
-      if (config.params.favorite === true) {
-        return [200, favorites];
-      }
-
-      return [200, favorites];
-    });
-
-    apiMock.onGet('/foods?favorite=true').reply(200, favorites);
+    apiMock.onGet('/favorites').reply(200, favorites);
 
     const item = {
       id: 1,
@@ -242,7 +213,6 @@ describe('Orders', () => {
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
       thumbnail_url:
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-      favorite: false,
       extras: [
         {
           id: 1,
@@ -317,19 +287,10 @@ describe('Orders', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: true,
       },
     ];
 
-    apiMock.onGet('/foods').reply(config => {
-      if (config.params.favorite === true) {
-        return [200, favorites];
-      }
-
-      return [200, favorites];
-    });
-
-    apiMock.onGet('/foods?favorite=true').reply(200, favorites);
+    apiMock.onGet('/favorites').reply(200, favorites);
 
     const item = {
       id: 1,
@@ -342,7 +303,6 @@ describe('Orders', () => {
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
       thumbnail_url:
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-      favorite: false,
       extras: [
         {
           id: 1,
@@ -409,19 +369,10 @@ describe('Orders', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: true,
       },
     ];
 
-    apiMock.onGet('/foods').reply(config => {
-      if (config.params.favorite === true) {
-        return [200, favorites];
-      }
-
-      return [200, favorites];
-    });
-
-    apiMock.onGet('/foods?favorite=true').reply(200, favorites);
+    apiMock.onGet('/favorites').reply(200, favorites);
 
     const item = {
       id: 1,
@@ -434,7 +385,6 @@ describe('Orders', () => {
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
       thumbnail_url:
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-      favorite: false,
       extras: [
         {
           id: 1,
@@ -497,19 +447,10 @@ describe('Orders', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: true,
       },
     ];
 
-    apiMock.onGet('/foods').reply(config => {
-      if (config.params.favorite === true) {
-        return [200, favorites];
-      }
-
-      return [200, favorites];
-    });
-
-    apiMock.onGet('/foods?favorite=true').reply(200, favorites);
+    apiMock.onGet('/favorites').reply(200, favorites);
 
     const item = {
       id: 1,
@@ -522,7 +463,6 @@ describe('Orders', () => {
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
       thumbnail_url:
         'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-      favorite: false,
       extras: [
         {
           id: 1,

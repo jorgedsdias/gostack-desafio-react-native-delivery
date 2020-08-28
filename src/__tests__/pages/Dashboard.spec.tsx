@@ -33,7 +33,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-        favorite: false,
         extras: [
           {
             id: 1,
@@ -58,7 +57,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: false,
         extras: [
           {
             id: 3,
@@ -121,7 +119,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-        favorite: false,
         extras: [
           {
             id: 1,
@@ -146,7 +143,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: false,
         extras: [
           {
             id: 3,
@@ -169,7 +165,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-        favorite: false,
         extras: [
           {
             id: 1,
@@ -197,7 +192,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: false,
         extras: [
           {
             id: 3,
@@ -289,7 +283,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-        favorite: false,
         extras: [
           {
             id: 1,
@@ -314,7 +307,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: false,
         extras: [
           {
             id: 3,
@@ -337,7 +329,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-        favorite: false,
         extras: [
           {
             id: 1,
@@ -365,7 +356,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: false,
         extras: [
           {
             id: 3,
@@ -464,7 +454,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png',
-        favorite: false,
         extras: [
           {
             id: 1,
@@ -489,7 +478,6 @@ describe('Dashboard', () => {
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png',
         thumbnail_url:
           'https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png',
-        favorite: false,
         extras: [
           {
             id: 3,
